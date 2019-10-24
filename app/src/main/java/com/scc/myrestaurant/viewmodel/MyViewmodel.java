@@ -1,4 +1,7 @@
 package com.scc.myrestaurant.viewmodel;
 
-public class MyViewmodel {
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelProvider;
+
+public class MyViewmodel extends ViewModel {
 }
