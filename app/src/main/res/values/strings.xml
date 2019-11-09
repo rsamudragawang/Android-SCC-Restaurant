@@ -4,4 +4,11 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="tavern">Tavern</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="title">Add To Chart</string>
+    <string name="todo">TODO</string>
+    <string name="tool">textview</string>
+    <string name="tool1">textview</string>
 </resources>
