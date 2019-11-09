@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Tavern"
+            android:text="@string/tavern"
             android:textColor="#FF4057"
             android:textSize="20sp" />
     </LinearLayout>
