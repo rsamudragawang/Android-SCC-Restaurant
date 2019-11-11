@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/tavern" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tavern"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One click simplity to order food"
+        android:textSize="16dp"
+        android:textColor="#ff4057"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"/>
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:background="@drawable/input_field3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"/>
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:text="Password"
+        android:background="@drawable/input_field3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lupa Kata Sandi?"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="200dp"
+        android:textColor="#ff4057"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/input_field"
+        android:text="Masuk"
+        android:textColor="#ffff" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:background="@drawable/input_field2"
+        android:textColor="#ff4057"
+        android:layout_marginTop="530dp"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
