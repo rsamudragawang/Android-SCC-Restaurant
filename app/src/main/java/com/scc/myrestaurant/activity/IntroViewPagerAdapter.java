@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.scc.myrestaurant.R;
+import com.scc.myrestaurant.model.ScreenItem;
 
 import java.util.List;
 

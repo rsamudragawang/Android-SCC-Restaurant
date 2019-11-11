@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 
 import com.google.android.material.tabs.TabLayout;
 import com.scc.myrestaurant.R;
+import com.scc.myrestaurant.model.ScreenItem;
 
 import java.util.ArrayList;
 import java.util.List;
