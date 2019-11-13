@@ -98,10 +98,18 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lupa Kata Sandi?"
+        android:text="Anda sudah punya akun?"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="110dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:layout_marginTop="570dp"
         android:textColor="@color/ping"
-        android:layout_marginTop="450dp"
-        android:layout_marginLeft="200dp"/>
+        android:layout_marginLeft="270dp"/>
 
 
 </RelativeLayout>
