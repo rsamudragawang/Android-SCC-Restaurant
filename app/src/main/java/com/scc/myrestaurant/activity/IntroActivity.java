@@ -38,6 +38,7 @@ public class IntroActivity extends AppCompatActivity {
             startActivity(MainActivity);
             finish();
         }
+
         setContentView(R.layout.activity_intro);
 
         btn_skip = findViewById(R.id.btn_skip);
@@ -110,7 +111,7 @@ public class IntroActivity extends AppCompatActivity {
         btn_getstarted.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent mainActivity = new Intent(getApplicationContext(), MainActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(mainActivity);
 
                 savePrefsData();

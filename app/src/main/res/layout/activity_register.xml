@@ -8,91 +8,100 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="120dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="30dp"
-        android:layout_alignParentTop="true"
+        android:layout_width="144dp"
+        android:layout_height="121dp"
         android:layout_centerHorizontal="true"
-        app:srcCompat="@drawable/tavern" />
+        app:srcCompat="@drawable/tavern"
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tavern"
+        android:textColor="#000"
+        android:textSize="15dp"
         android:textStyle="bold"
-        android:textSize="16dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"/>
+        android:layout_marginTop="140dp"/>
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="One click simplity to order food"
-        android:textSize="16dp"
+        android:layout_marginBottom="508dp"
+        android:text="One click simplicity to order food "
         android:textColor="#ff4057"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"/>
+        android:layout_marginTop="158dp"/>
+
     <EditText
-        android:id="@+id/editText5"
-        android:layout_width="260dp"
-        android:layout_height="35dp"
+        android:id="@+id/editText"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Nama"
-        android:background="@drawable/input_field3"
+        android:hint="Masukan Nama"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:background="@drawable/background"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"/>
+        android:layout_marginTop="250dp"/>
     <EditText
-        android:id="@+id/editText6"
-        android:layout_width="260dp"
-        android:layout_height="35dp"
+        android:id="@+id/editText2"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Email"
-        android:background="@drawable/input_field3"
+        android:hint="Masukan Email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:background="@drawable/background"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="320dp"/>
+        android:layout_marginTop="300dp"/>
     <EditText
-        android:id="@+id/editText7"
-        android:layout_width="260dp"
-        android:layout_height="35dp"
+        android:id="@+id/editText3"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
         android:ems="10"
-        android:inputType="numberDecimal"
-        android:text="Nomor Hp"
-        android:background="@drawable/input_field3"
+        android:inputType="phone"
+        android:hint="Masukan Nomor Ponsel"
+        android:background="@drawable/background"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="360dp"/>
+        android:layout_marginTop="350dp"/>
+
     <EditText
-        android:id="@+id/editText8"
-        android:layout_width="260dp"
-        android:layout_height="35dp"
+        android:id="@+id/password"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:background="@drawable/background"
+        android:defaultFocusHighlightEnabled="true"
         android:ems="10"
-        android:inputType="textVisiblePassword"
-        android:text="Password"
-        android:background="@drawable/input_field3"
+        android:hint="Masukan Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:inputType="textPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"/>
+
     <Button
-        android:id="@+id/daftar"
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
-        android:text="Daftar"
+        android:id="@+id/masuk"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
         android:background="@drawable/input_field"
+        android:text="Daftar"
         android:textColor="#ffff"
-        android:layout_marginTop="530dp"
-        android:radius="50dp"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"/>
+
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Anda sudah punya akun?"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="580dp"/>
-
+        android:text="Lupa Kata Sandi?"
+        android:textColor="@color/ping"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="200dp"/>
 
 
 </RelativeLayout>

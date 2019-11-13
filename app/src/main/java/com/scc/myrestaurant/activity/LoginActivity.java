@@ -8,9 +8,10 @@ import android.view.View;
 import android.widget.Button;
 
 import com.scc.myrestaurant.R;
+import com.scc.myrestaurant.activity.MainActivity;
 
 public class LoginActivity extends AppCompatActivity {
-   Button btn_pindah;
+    Button btn_pindah;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +19,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        btn_pindah = findViewById(R.id.button);
+        btn_pindah = findViewById(R.id.masuk);
         btn_pindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,8 +27,7 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(view);
             }
         });
-
-        btn_pindah = findViewById(R.id.button2);
+        btn_pindah = findViewById(R.id.daftar);
         btn_pindah.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
