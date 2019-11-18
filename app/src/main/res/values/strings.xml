@@ -11,4 +11,8 @@
     <string name="todo">TODO</string>
     <string name="tool">textview</string>
     <string name="tool1">textview</string>
+    <string name="button">Top Up</string>
+    <string name="textnominal">Masukkan Nominal</string>
+    <string name="masukkan_nominal">Masukkan Nominal</string>
+    <string name="top_up">Top Up</string>
 </resources>
