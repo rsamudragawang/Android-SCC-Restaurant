@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/main_pager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/beef"
+            app:layout_constraintStart_toStartOf="@+id/linear_layout_up">
+        </ImageView>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="58dp"
+        android:layout_gravity="top"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:src="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.82">
+    </ImageView>
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="34dp"
+        android:text="@string/beef_steak"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.72"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        android:textColor="#585656">
+    </TextView>
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/beef_with_potato_sauce"
+        android:textColor="#C4C4C4"
+        android:textSize="8sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.8">
+    </TextView>
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/coin"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.82">
+    </ImageView>
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="25dp"
+        android:text="@string/money_beef_steak"
+        android:textColor="@color/grey_2"
+        android:textSize="8sp"
+        android:textStyle="normal"
+        app:fontFamily="@font/neueefont"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout5"
+        app:layout_constraintVertical_bias="0.89">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

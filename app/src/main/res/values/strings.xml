@@ -11,4 +11,17 @@
     <string name="todo">TODO</string>
     <string name="tool">textview</string>
     <string name="tool1">textview</string>
+    <string name="query_search_View">Mau pesen makanan apa ..</string>
+    <string name="search_hint">Masukkan kata</string>
+    <string name="menu_1">menu_1</string>
+    <string name="menu_2">menu_2</string>
+    <string name="hallo_kyai_rony">Hallo, Kyai Rony!</string>
+    <string name="saldo_kamu">Saldo kamu sekarang</string>
+    <string name="money_home">Rp 310.000</string>
+    <string name="kategori">Kategori</string>
+    <string name="choose_your_food">Ayoo pilih kategori makananmu sekarang juga!</string>
+    <string name="food_billing">Mau pesen makanan apa ..</string>
+    <string name="beef_steak">Beef Steak</string>
+    <string name="beef_with_potato_sauce">Beef with potato sauce</string>
+    <string name="money_beef_steak">Rp 120.000</string>
 </resources>
