@@ -10,7 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activity.TopUpActivity"
+            android:name=".activity.IntroActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity
+           android:name=".activity.TopUpActivityy">
+      </activity>
+      <activity
+                android:name=".activity.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -21,7 +29,8 @@
         </activity>
         <activity android:name=".activity.ForgotPassword">
         </activity>
-
+	<activity
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         <activity
             android:name=".activity.RegisterActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
@@ -29,14 +38,11 @@
             android:name=".activity.LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".activity.Test" />
-        <activity
-            android:name=".activity.SplashActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
-        </activity>
+       
         <activity
             android:name=".activity.MainActivity"
-            android:label="@string/app_name"></activity>
+            android:label="@string/app_name">
+</activity>
     </application>
 
 </manifest>
