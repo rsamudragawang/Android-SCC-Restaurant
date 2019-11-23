@@ -24,4 +24,8 @@
     <string name="beef_steak">Beef Steak</string>
     <string name="beef_with_potato_sauce">Beef with potato sauce</string>
     <string name="money_beef_steak">Rp 120.000</string>
+    <string name="button">Top Up</string>
+    <string name="textnominal">Masukkan Nominal</string>
+    <string name="masukkan_nominal">Masukkan Nominal</string>
+    <string name="top_up">Top Up</string>
 </resources>

@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 
 import com.google.android.material.tabs.TabLayout;
 import com.scc.myrestaurant.R;
+import com.scc.myrestaurant.model.ScreenItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +38,7 @@ public class IntroActivity extends AppCompatActivity {
             startActivity(MainActivity);
             finish();
         }
+
         setContentView(R.layout.activity_intro);
 
         btn_skip = findViewById(R.id.btn_skip);
@@ -109,7 +111,7 @@ public class IntroActivity extends AppCompatActivity {
         btn_getstarted.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent mainActivity = new Intent(getApplicationContext(), MainActivity.class);
+                Intent mainActivity = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(mainActivity);
 
                 savePrefsData();

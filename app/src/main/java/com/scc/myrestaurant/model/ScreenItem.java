@@ -1,4 +1,4 @@
-package com.scc.myrestaurant.activity;
+package com.scc.myrestaurant.model;
 
 public class ScreenItem {
     String Title, Description;
